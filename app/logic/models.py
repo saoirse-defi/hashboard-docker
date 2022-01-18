@@ -1,7 +1,7 @@
 import uuid
 from flask import session, redirect, request, url_for, flash, render_template
 from werkzeug.security import generate_password_hash, check_password_hash
-from run import mongo
+from app.run import mongo
 
 
 class Account():
